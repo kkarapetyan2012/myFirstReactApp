@@ -5,7 +5,7 @@ const Last = (props) => {
     return (
         <div className="col-3 d-flex flex-column justify-content-center align-items-center">
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                { props.src }
+                { props.image }
             </div>
             <div className="title">
                 <h2>{ props.title }</h2>

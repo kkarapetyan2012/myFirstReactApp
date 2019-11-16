@@ -8,22 +8,24 @@ import { data } from '../../data1';
 const Blog = () => {
     const images = [
         {
+            id: '1',
             src: '../../public/img/scr01.jpg'
         },
-        {
+        {   id: '2',
             src: '../../public/img/scr02.jpg'
         },
         {
+            id: '3',
             src: '../../public/img/scr03.jpg'
         },
-        {
+        {   id: '4',
             src: '../../public/img/scr04.jpg'
         }
     ];
 
     console.log(images.length)
     images.map((image) => {
-        return <img key={image.id} image={image.src} alt="" className="img-responsive" />
+        return <img key={images.id} image={image.src} alt="" className="img-responsive" />
         
     });
     return (
